@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Margiela Team Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-mark">M</span>
+        <span class="logo-text">Margiela Team Guide</span>
+      </div>
+      <nav class="nav">
+        <a href="#overview">Overview</a>
+        <a href="#roles">Roles</a>
+        <a href="#process">Workflow</a>
+        <a href="#resources">Resources</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero / Welcome -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div>
+          <h1>Welcome to the Margiela Team Guide</h1>
+          <p class="hero-subtitle">
+            A central place to understand our team values, roles, workflows, and best practices.
+          </p>
+          <a href="#overview" class="btn-primary">Get Started</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Overview -->
+    <section id="overview" class="section">
+      <div class="container">
+        <h2>Team Overview</h2>
+        <p>
+          This guide summarizes how the Margiela Team works together, makes decisions, and
+          communicates. Customize this text to describe your team’s mission, goals, and current projects.
+        </p>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Mission</h3>
+            <p>
+              Describe your team’s mission here. For example: “Deliver high-quality features on time while
+              maintaining a healthy and collaborative working culture.”
+            </p>
+          </article>
+          <article class="card">
+            <h3>Values</h3>
+            <p>
+              List a few core values: transparency, ownership, empathy, continuous improvement, etc.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Communication</h3>
+            <p>
+              Explain your main communication channels (e.g., Discord, Slack, email) and rough response
+              expectations.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Roles -->
+    <section id="roles" class="section section-alt">
+      <div class="container">
+        <h2>Roles & Responsibilities</h2>
+        <p>
+          Use this section to clarify what each role is responsible for. This helps new members understand
+          who does what.
+        </p>
+        <div class="role-list">
+          <div class="role">
+            <h3>Team Lead</h3>
+            <ul>
+              <li>Coordinates priorities and timelines.</li>
+              <li>Facilitates stand-ups and retrospectives.</li>
+              <li>Makes final decisions when the team is blocked.</li>
+            </ul>
+          </div>
+          <div class="role">
+            <h3>Developer</h3>
+            <ul>
+              <li>Implements features and fixes bugs.</li>
+              <li>Writes tests and reviews pull requests.</li>
+              <li>Helps refine technical designs.</li>
+            </ul>
+          </div>
+          <div class="role">
+            <h3>Designer / UX</h3>
+            <ul>
+              <li>Creates wireframes and mockups.</li>
+              <li>Ensures consistency in UI elements.</li>
+              <li>Collects feedback to improve user experience.</li>
+            </ul>
+          </div>
+          <div class="role">
+            <h3>QA / Tester</h3>
+            <ul>
+              <li>Prepares test cases for new features.</li>
+              <li>Performs manual and exploratory testing.</li>
+              <li>Documents bugs clearly for developers.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Workflow / Process -->
+    <section id="process" class="section">
+      <div class="container">
+        <h2>Workflow & Processes</h2>
+        <p>
+          Briefly describe how tasks move from idea to completion. You can adapt this to match Agile,
+          Kanban, or any custom process.
+        </p>
+
+        <ol class="process-list">
+          <li>
+            <strong>1. Ideas & Planning</strong> – Collect feature ideas, bugs, and improvements into a
+            backlog. Prioritize them during planning meetings.
+          </li>
+          <li>
+            <strong>2. Task Breakdown</strong> – Break larger features into smaller tasks with clear
+            acceptance criteria.
+          </li>
+          <li>
+            <strong>3. Development</strong> – Implement tasks in feature branches. Follow coding
+            standards and keep commits small.
+          </li>
+          <li>
+            <strong>4. Review & Testing</strong> – Open pull requests, get peer review, and run tests
+            before merging.
+          </li>
+          <li>
+            <strong>5. Release & Feedback</strong> – Deploy changes, monitor for issues, and collect user
+            or stakeholder feedback.
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Resources -->
+    <section id="resources" class="section section-alt">
+      <div class="container">
+        <h2>Key Resources</h2>
+        <p>
+          Add links to tools, documents, and dashboards that your team frequently uses.
+        </p>
+
+        <ul class="resource-list">
+          <li><span class="resource-label">Code Repository:</span> <span>Link to GitHub / GitLab</span></li>
+          <li><span class="resource-label">Design System:</span> <span>Link to Figma / design docs</span></li>
+          <li><span class="resource-label">Task Board:</span> <span>Link to Trello / Jira / Notion</span></li>
+          <li><span class="resource-label">Documentation:</span> <span>Link to wiki or shared docs</span></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Margiela Team Guide. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
